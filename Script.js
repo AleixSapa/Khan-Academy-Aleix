@@ -1,6 +1,7 @@
 var NombreDeUsuario
 var Seguridad
 function Seguridad(Seguridad) {
+    Seguridad(0) = false
     Seguridad(1) = false
     Seguridad(2) = false
     Seguridad(3) = false
@@ -32,28 +33,11 @@ function Seguridad(Seguridad) {
     Seguridad(29) = false
     Seguridad(30) = false
     Seguridad(31) = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-    Seguridad() = false
-}
-function Codigo(Seguridad) {
-    if (Seguridad(1) == false) { }
+
+
+
+    if (Seguridad(1) == false) {
+        alert('No Puedes Entrar')
+    }
+
 }
