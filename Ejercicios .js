@@ -9,7 +9,12 @@ function NombreDeUsuarioF(NombreDeUsuario) {
     alert('Ves A Tu Primer Ejercicio ' + NombreDeUsuario)
 }
 //1
-function Ejercicio() {
-    alert('Vamos A Acer Paragrafos')
-    alert('<p> </p>')
+//function Ejercicio() {
+//   alert('Vamos A Acer Paragrafos')
+//   alert('<p> </p>')
+//}
+
+function Respuesta() {
+    Ejercicio(1) = alert('Muy Bien ' + NombreDeUsuario + 'Lo As Consegido')
+    Ejercicio(2) = alert('La Proxima Vez ' + NombreDeUsuario)
 }
